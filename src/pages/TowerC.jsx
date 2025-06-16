@@ -4,7 +4,7 @@ export default function TowerC() {
   return (
     <>
       <div>
-        <p>doorvi/TowerC </p>
+        <p className="toast">doorvi/TowerC </p>
         <div>
           {towerC.map((curData) => {
             const { id, address } = curData;

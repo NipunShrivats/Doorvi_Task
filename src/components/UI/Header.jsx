@@ -10,10 +10,8 @@ export default function Header() {
             <NavLink to="/">DOORVI</NavLink>
           </div>
           <nav>
-            <ul>
-              <li>
-                <NavLink to={"/"}>Home</NavLink>
-              </li>
+            <ul className="towers">
+              <p>Navigate to the following buildings:-</p>
               <li>
                 <NavLink to={"/towerA"}>TowerA</NavLink>
               </li>
@@ -25,6 +23,9 @@ export default function Header() {
               </li>
               <li>
                 <NavLink to={"/towerD"}>TowerD</NavLink>
+              </li>
+              <li>
+                <NavLink to={"/"}>Home</NavLink>
               </li>
             </ul>
           </nav>
