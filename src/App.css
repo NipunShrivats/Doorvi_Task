@@ -4,9 +4,19 @@
 
 .towers {
     list-style-type: none;
-
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    ;
 }
 
+.towers li {
+
+    background-color: rgb(208, 208, 208);
+    width: 30rem;
+    padding: .6rem 1rem;
+    border-radius: 10rem;
+}
 
 .towers li a {
     /* border: 2px solid red; */
@@ -14,4 +24,20 @@
     text-decoration: none;
     background-color: rgb(208, 208, 208);
 
+}
+
+.floor {
+    background-color: rgb(192, 230, 251);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-floor {
+    background-color: rgb(130, 198, 234);
+    padding: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
